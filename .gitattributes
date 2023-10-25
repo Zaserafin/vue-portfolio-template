@@ -1,0 +1,22 @@
+# Tipos de archivo que deben tratarse como binarios
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.zip binary
+
+# Para archivos de código fuente, aseguramos que se detecten correctamente las diferencias de línea
+*.vue text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+
+# Para archivos generados y minificados, los tratamos como binarios
+*.css binary
+*.html binary
+*.min.js binary
+*.map binary
